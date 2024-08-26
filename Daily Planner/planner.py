@@ -89,13 +89,6 @@ class Application(QWidget):
         messageBox.setStandardButtons (QMessageBox.Ok)
         messageBox. exec()
 
-        
-        
-        
-        
-        
-    
-
 if __name__=="__main__":
     app=QApplication(sys.argv)
     application=Application()
